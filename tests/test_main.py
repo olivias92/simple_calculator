@@ -9,7 +9,7 @@ from simple_calculator.main import SimpleCalculator
 def test_add_two_numbers():
     calculator = SimpleCalculator()
 
-    result = calculator.add(4, 5)
+    result = calculator.add(3, 5)
 
     assert result == 9
 
